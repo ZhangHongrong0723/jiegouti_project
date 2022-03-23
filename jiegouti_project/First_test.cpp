@@ -40,6 +40,7 @@ void printInfo(teacher tArray[], int len) {
 		cout << tArray[i].name << "\t" << tArray[i].age << endl;
 
 		cout << "学生信息" << endl;
+		cout << "hello" << endl;
 
 		for (int j = 0; j < 5; j++) {
 			cout << tArray[i].stuArray[j].name<<"\t";
